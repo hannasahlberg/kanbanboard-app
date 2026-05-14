@@ -1,6 +1,6 @@
-import { useParams } from "react-router-dom";
 import { useBoard } from "../context/BoardContext";
 import Column from "../components/Column";
+import { useParams } from "react-router-dom";
 
 export default function ColumnPage() {
   const { id } = useParams(); // t.ex. "todo", "doing", "finished"
